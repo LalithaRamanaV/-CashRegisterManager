@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/1d4c031d6d.js" crossorigin="anonymous"></script>
+    <title>CashRegister</title>
+
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    
+    <div id="wrapper">
+      <h1 id="title">Cash Register Manager</h1>
+      <p id="description">
+        Enter the bill amount and the cash collected to know the amount to be retured
+      </p>
+      
+    <div id="bill-amount">
+    <label for="bill-input">Bill Amount</label>
+    <input type="number" id="bill-input"/>
+    </div>
+ 
+     <div id="cash-collected">
+       <label for="cash-collected-input">Cash Collected</label>
+       <input type="number" id="cash-collected-input">
+       </div>
+
+       <button id="check-btn" type="button">Next</button>
+
+       <p id="display-message"></p>
+
+       <table id="notes-table">
+           <thead>
+             <caption>Return Change:
+               <span id="return-change"></span>
+             </caption>
+           </thead>
+           <tbody id="table-body">
+             <tr>
+               <th>Notes</th>
+               <td class="note-value">2000</td>
+            <td class="note-value">500</td>
+            <td class="note-value">100</td>
+            <td class="note-value">20</td>
+            <td class="note-value">10</td>
+            <td class="note-value">5</td>
+            <td class="note-value">1</td>
+             </tr>
+             <tr>
+               <th>No of Notes</th>
+            <td class="note-count"></td>
+            <td class="note-count"></td>
+            <td class="note-count"></td>
+            <td class="note-count"></td>
+            <td class="note-count"></td>
+            <td class="note-count"></td>
+            <td class="note-count"></td>
+             </tr>
+           </tbody>
+       </table>
+       <p id="name">Copyright &copy; 2021 | Lalitha Vadavalli</p>
+      </div>
+    <script src="script.js"></script>
+  </body>
+</html>
