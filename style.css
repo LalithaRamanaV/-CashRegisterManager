@@ -30,19 +30,20 @@ body{
   text-align: center;
 }
 input {
-  /* display: block;
-  border: 2px solid var(--darkBlue);
+  /* 
+  
   padding: 8px 16px;
-  outline: none;
   border-radius: 4px;
-  margin-top: 8px;
    */
   width: 100%;
   padding: 1rem;
+  border: 2px solid var(--darkBlue);
   height: 50px;
+  outline: none;
   display: block;
   font-size: 16px;
   text-align: center;
+  margin-top: 8px;
 }
 
 label {
@@ -109,7 +110,7 @@ strong {
 }
 #notes-table {
   margin-bottom: 32px;
-  
+  table-layout: fixed;
 }
 
 #notes-table caption {
@@ -151,6 +152,54 @@ html {
    
 }
 
+a {
+  display: inline;
+}
+/* footer */
+#footer {
+  bottom: 0;
+  padding: 1rem 1rem 1rem;
+  font-size: 15px;
+  text-align: center;
+  position: relative;
+  width: 100%;
+}
+
+.footer-icon {
+  font-size: 1.5rem;
+  /* color: #3b82f6; */
+  color:#00b1d2ff;
+  width: 10px;
+  height: 10px;
+  margin: 0.5px;
+  margin-right: 10px;
+  margin-bottom: var(--mb-4);
+}
+.footer-social {
+  margin-bottom: var(--mb-4);
+  padding-top: 10px;
+}
+
+#footer {
+  color:#00b1d2ff;
+  /* padding-top: 10px; */
+    font-size: large !important;
+    bottom: 0;
+    width: 100%;
+}
+
+#footer #copyright {
+  margin-top: 0.5em;
+  font-weight: 500;
+  color: #7d7d7d;
+  font-size: 15px;
+}
+.footer-title {
+  color: #7d7d7d;
+  font-size: 20px;
+  /* padding: 5px; */
+  margin-bottom: 10px;
+}
 a {
   display: inline;
 }
