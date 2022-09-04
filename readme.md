@@ -16,6 +16,8 @@ This is a Cash Register Manager application.This application is created using HT
 * Takes bill amount as input
 * Also cash given is entered as input
 * Gives output as the amount to be returned in change to the customer with the minimum number of notes.
+* Here two inputs are taken from the user.The second input is only visible after the first input is given i.e, bill amount
+
 
 # Demo
 * Please click on the below link to try the application
