@@ -15,6 +15,7 @@ body{
   font-family: "Varela Round";
   color:var(--black);
   background:var(--white);
+  margin:0;
   }
   main {
   display: block;
@@ -29,13 +30,18 @@ body{
   text-align: center;
 }
 input {
-  display: block;
+  /* display: block;
   border: 2px solid var(--darkBlue);
   padding: 8px 16px;
   outline: none;
   border-radius: 4px;
-  font-size: 24px;
   margin-top: 8px;
+   */
+  width: 100%;
+  padding: 1rem;
+  height: 50px;
+  display: block;
+  font-size: 16px;
   text-align: center;
 }
 
@@ -103,6 +109,7 @@ strong {
 }
 #notes-table {
   margin-bottom: 32px;
+  
 }
 
 #notes-table caption {
@@ -118,8 +125,9 @@ strong {
 
 td,
 th {
-  padding: 1rem;
+  padding: 0.2rem;
   background-color: #fff;
+  border-collapse: collapse;
 }
 
 th,
